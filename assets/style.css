@@ -4,13 +4,23 @@
   background-repeat: no-repeat;
   overflow: hidden;
   font-family: 'New Rocker', cursive;
+  border-bottom: 3px black solid;
+}
+
+#NYtimes1 {
+  margin-top: 10px;
 }
 
 body {
   font-family: 'Roboto Slab', serif;
 }
 
+#Parameters{
+  margin-top: 15px;
+}
+
 .input-group-text {
   background-color: lightgray;
   font-family: 'Roboto Slab', serif;
+  width: 180px;
 }
