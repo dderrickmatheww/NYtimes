@@ -16,7 +16,8 @@ body {
 }
 
 #Parameters{
-  margin-top: 15px;
+  margin-top: 35px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
@@ -28,16 +29,30 @@ body {
   border-right: 2px black solid;
 }
 
+#buttons {
+  float: right;
+  flex-grow: 0;
+  padding-left: 0;
+
+}
+
 #submit,#clear {
   background-color: lightgray;
   font-family: 'Roboto Slab', serif;
   color: black;
   border: 0px;
   border-radius: 5px;
+  margin-right: 20px;
 }
 
 #submit:hover,#clear:hover {
   color:blue;
+  box-shadow: 0 5px 5px black;
+}
+
+#topArticles {
+  margin-top: 25px;
+  text-align: center;
 }
 
 
