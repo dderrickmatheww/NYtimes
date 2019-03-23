@@ -1,10 +1,11 @@
 $(document).ready(function() {
 // variable declaration section
 var queryURL;
-var searchTerm;
-var numOfRecords;
-var startYear;
-var startendYear;
+var searchTerm = $("#searchterm");
+var numOfRecords = $("#records");
+var startYear = $("#startyear");
+var startendYear = $("#endyear");
+var results = $("#results")
 
 
 
@@ -12,7 +13,7 @@ var startendYear;
 
 $.ajax({
   url: queryURL,
-  method: "GET";
+  method: "GET",
 
 
 
