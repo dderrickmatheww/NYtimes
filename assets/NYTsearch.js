@@ -22,7 +22,7 @@ $.ajax({
 }).then(function(response) {
 console.log(response);
 
-quertURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + searchTerm + "&api-key=" + apikey + "q=pub_year:(" + startYear + endYear +")&fq=The%20New%20York%20Times";
+queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + searchTerm + "&api-key=" + apikey + "q=pub_year:(" + startYear + endYear +")&fq=The%20New%20York%20Times";
 
 
 
