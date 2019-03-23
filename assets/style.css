@@ -1,5 +1,16 @@
 .jumbo-tron {
   background-image: url("../assets/images/NYtimes.jpg");
   background-size: cover;
-  background-color: gray;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  font-family: 'New Rocker', cursive;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+.input-group-text {
+  background-color: lightgray;
+  font-family: 'Roboto Slab', serif;
 }
