@@ -17,10 +17,27 @@ body {
 
 #Parameters{
   margin-top: 15px;
+  text-align: center;
 }
 
 .input-group-text {
   background-color: lightgray;
   font-family: 'Roboto Slab', serif;
   width: 180px;
+  color: black;
+  border-right: 2px black solid;
 }
+
+#submit,#clear {
+  background-color: lightgray;
+  font-family: 'Roboto Slab', serif;
+  color: black;
+  border: 0px;
+  border-radius: 5px;
+}
+
+#submit:hover,#clear:hover {
+  color:blue;
+}
+
+

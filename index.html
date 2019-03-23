@@ -17,75 +17,77 @@
   <div class="jumbo-tron">
     <div class="row text-center">
       <div class="col-12">
-        <img src="assets/images/nyt.png">
+        <img src="assets/images/nyt.png" id="NYtimes1">
       </div>
       <div class="col-12">
         <h1>Search</h1>
       </div>
     </div>
   </div>
-  <div class="card text-center mt-3 pt-3">
+  
     <div class="card-title">
-      <h3>Search Parameters</h3>
+      <h3 id="Parameters">Search Parameters</h3>
     </div>
 
-    <div class="input-group mb-3">
-      <div class="input-group-prepend">
-        <span class="input-group-text" id="inputGroup-sizing-default">
-          <div id="searchterm">Search Term</div>
-        </span>
-      </div>
-      <input type="text" class="form-control" aria-label="Sizing example input"
-        aria-describedby="inputGroup-sizing-default">
-    </div>
-    <div class="input-group mb-3">
-      <div class="input-group-prepend">
-        <span class="input-group-text" id="inputGroup-sizing-default">
-          <div id="search term">
-            <div id="records">Records </div>
-          </div>
-        </span>
-      </div>
-      <input type="text" class="form-control" aria-label="Sizing example input"
-        aria-describedby="inputGroup-sizing-default">
-    </div>
-    <div class="input-group mb-3">
-      <div class="input-group-prepend">
-        <span class="input-group-text" id="inputGroup-sizing-default">
-          <div id="search term">
-            <div id="startyear"> Start Year (Optional)</div>
-          </div>
-        </span>
-      </div>
-      <input type="text" class="form-control" aria-label="Sizing example input"
-        aria-describedby="inputGroup-sizing-default">
-    </div>
-    <div class="input-group mb-3">
-      <div class="input-group-prepend">
-        <span class="input-group-text" id="inputGroup-sizing-default">
-          <div id="search term">
-            <div id="endyear"> End Year (Optional)</div>
-          </div>
-        </span>
-      </div>
-      <input type="text" class="form-control" aria-label="Sizing example input"
-        aria-describedby="inputGroup-sizing-default">
-    </div>
-  </div>
-  <div class="container text-center mt-3">
-    <div class="row">
-      <div class="col-6 pr-1">
-        <button class="btn-dark">Submit</button>
-      </div>
-      <div class="col-6 pl-1">
-        <button class="btn-dark">Clear</button>
-      </div>
-    </div>
-    <div class="container text-center">
-    </div>
-    <h3>Top Articles</h3>
-    <div id="results">
+  <div class="container">
 
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">
+            <div id="searchterm">Search Term</div>
+          </span>
+        </div>
+        <input type="text" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">
+            <div id="search term">
+              <div id="records">Records </div>
+            </div>
+          </span>
+        </div>
+        <input type="text" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">
+            <div id="search term">
+              <div id="startyear"> Start Year (Optional)</div>
+            </div>
+          </span>
+        </div>
+        <input type="text" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">
+            <div id="search term">
+              <div id="endyear"> End Year (Optional)</div>
+            </div>
+          </span>
+        </div>
+        <input type="text" class="form-control" aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default">
+      </div>
+  
+    <div class="container text-center mt-3">
+      <div class="row">
+        <div class="col-6 pr-1">
+          <button class="btn-dark" id="submit">Submit</button>
+        </div>
+        <div class="col-6 pl-1">
+          <button class="btn-dark" id="clear">Clear</button>
+        </div>
+      </div>
+      <div class="container text-center">
+      </div>
+      <h3>Top Articles</h3>
+      <div id="results"></div>
+    
     </div>
   </div>
 
